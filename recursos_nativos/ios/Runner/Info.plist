@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- PERMISSÕES NECESSÁRIAS -->
+    <key>NSCameraUsageDescription</key>
+    <string>Precisamos da câmera para que você possa anexar fotos às suas tarefas.</string>
+    
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Precisamos acessar suas fotos para selecionar imagens para as tarefas.</string>
+    
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Precisamos da sua localização para associar tarefas a lugares específicos.</string>
+    
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Precisamos da sua localização para criar lembretes baseados em local.</string>
+</dict>
+</plist>
+```
